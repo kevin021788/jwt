@@ -1,0 +1,35 @@
+{
+	"name": "kevin021788/jwt",
+	"description": "jwt,json,web,token",
+	"homepage": "https://github.com/kevin021788/jwt",
+	"keywords": [
+		"jwt",
+		"json",
+		"web",
+		"token"
+	],
+	"minimum-stability": "dev",
+	"authors": [ 
+		{
+			"name": "kevin zeng",
+			"email": "kevin0217@126.com",
+			"homepage": "https://github.com/kevin021788",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kevin\\Jwt\\": "src/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
